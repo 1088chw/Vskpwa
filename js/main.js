@@ -1,5 +1,9 @@
 function mysubmit () {
     alert(1);
+    
+  var vname = document.getElementById("id_name");
+    alert(vname);
+    alert(vname.value);
    
      var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -8,8 +12,6 @@ function mysubmit () {
     }
   };
 
-  var vname = document.getElementById("id_name");
-    alert(vname.value);
     
   var vPage = "hello.php?name=" + vname.value; 
   xhttp.open("GET", vPage  , true);
