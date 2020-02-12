@@ -1,6 +1,6 @@
 function mysubmit () {
     alert(1);
-    /*
+   
      var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -14,5 +14,5 @@ function mysubmit () {
   var vPage = "hello.php?name=" + vname.value; 
   xhttp.open("GET", vPage  , true);
   xhttp.send();
-  */
+  
 }
